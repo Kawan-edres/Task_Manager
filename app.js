@@ -18,7 +18,7 @@ app.use(notFound);
 app.use(errorHandlerMiddleware);
 
 
-const port = 3000;
+const port = "https://task-manager-two-chi.vercel.app/" || 3000;
 const start = async () => {
   //it return a promise that is why we used async
   try {
